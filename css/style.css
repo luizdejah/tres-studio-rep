@@ -8,14 +8,29 @@
 }
 
 
+
+
+
+h1 {
+	font-size: 35px;
+
+}
+
+
+h2 {
+	font-size: 25px;
+	
+}
+
+
 /*container*/
 #container {
-position: relative;
 width: 100%;
 height: auto;
 background: red;
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 
 }
 
@@ -79,6 +94,53 @@ nav	{
 }
 
 
+
+/*main*/
+
+main {
+	
+	background: pink;
+	width: 1440px;
+	height: 600px;
+	
+}
+
+.hero {
+	background-image: url("../images/hero.jpg");
+	background-repeat: no-repeat;   
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+    height: 600px;
+}
+
+
+/*article*/
+
+
+article {
+	background: #F2F2F2;
+	width: 1440px;
+	height: 325px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.whoareus {
+width: 50%;
+}
+
+
+
+
+
+
+
+
+
 /*
 ------------------
 media width 1000pxx
@@ -90,7 +152,7 @@ media width 1000pxx
 #container {
 position: relative;
 width: 100%;
-height: 1000px;
+height: auto;
 background: red;
 display: flex;
 justify-content: center;
@@ -126,6 +188,7 @@ nav {
  flex-direction: column;
  justify-content: space-between;
   margin-top:10px;
+  margin-left: 0;
 }
 
 .menu li {
@@ -138,6 +201,27 @@ nav {
 display: none;
 	
 }
+
+
+/*main*/
+main {
+	
+	background: pink;
+	width: 100%;
+	height: auto;
+	
+}
+
+.hero {
+	background-image: url("../images/hero.jpg");
+	background-repeat: no-repeat;   
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+    height: 300px;
+}
+
+
 
 
 
