@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	list-style: none;
+	overflow-y: none;
 }
 
 
@@ -12,7 +13,7 @@
 position: relative;
 width: 100%;
 height: auto;
-background: white;
+background: red;
 display: flex;
 justify-content: center;
 
@@ -86,6 +87,17 @@ media width 1000pxx
 
 @media only screen and (max-width: 1000px) {
 
+#container {
+position: relative;
+width: 100%;
+height: 1000px;
+background: red;
+display: flex;
+justify-content: center;
+
+}
+
+
 
 /*header*/
 header {
@@ -123,9 +135,9 @@ nav {
 
 
 .call-to-action {
-	display: none;
+display: none;
+	
 }
-
 
 
 
