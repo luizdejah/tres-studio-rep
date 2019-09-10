@@ -276,15 +276,38 @@ width: 50%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: flex-start;
+	text-align: left;
     flex-direction: column;
+
   
+}
+
+
+
+.contact-box {
+	background: #F2F2F2;
+	width: 1180px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+}
+
+.contact-text {
+	width: 1180px;
+	text-align: left;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .contact-image {
 	width: 400px;
-	height: 500px;
-	background: #E5E5E5;
+	height: 540px;
+
 }
 
 
@@ -295,6 +318,15 @@ width: 50%;
 	background: #000000;
 }
 
+.contact-row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	}
+
+.contact-number:before {
+	content: "♥";
+}
 
 
 
