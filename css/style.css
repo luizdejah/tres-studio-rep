@@ -285,7 +285,7 @@ width: 50%;
 
 
 .contact-box {
-	background: #F2F2F2;
+	background: #ffffff;
 	width: 1180px;
 	height: auto;
 	display: flex;
@@ -302,6 +302,7 @@ width: 50%;
 	display: inline-block;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	align-items: center;
 }
 
 .contact-image {
@@ -315,18 +316,87 @@ width: 50%;
 .contact-input {
 	width: 740px;
 	height: 540px;
-	background: #000000;
+	background: #ffffff;
 }
 
 .contact-row {
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: nowrap;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	align-items: center;
 	}
 
+
+.rowleft {
+	display: block;
+	width: 45%;
+	height: 1px;
+	background: #767676;
+}	
+
+.rowright {
+	display: block;
+	width: 45%;
+	height: 1px;
+	background: #767676;
+}	
+
 .contact-number:before {
-	content: "♥";
+	display: inline-block;
+	content: url(../icons/icon_whatsapp_color.svg);
+	margin-right: 30px;
+	vertical-align: middle;
+
+
+	
 }
+
+.contact-form{
+	width: 100%;
+	margin:0 auto 0 auto;
+}
+
+
+.inputField {
+	width: 100%;
+	resize: none;
+	padding: 10px;
+	background: #f2f2f2;
+	border: none;
+
+}
+
+
+.rowTab {
+	padding: 10px;
+}
+
+
+.textTab {
+	padding: 10px;
+	resize: none;
+	height: 160px;
+}
+
+.btnTab {
+	padding: 10px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.buttonClass {
+	color: #afafaf;
+	font-size: 17px;
+	border-style: solid;
+	height: 44px;
+	width: 120px;
+	border-radius: 5px;
+	background: #ffffff;
+
+
+}
+
 
 
 
