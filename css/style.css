@@ -400,6 +400,35 @@ width: 50%;
 
 
 
+#footer-container {
+	width: 1440px;
+	height: 115px;
+	background: black;
+	
+}
+
+.footer-box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.footer-itens {
+	display: flex;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	align-items: center;
+	justify-content: space-between;
+	width: 475px;
+	height: 42px; 
+}
+
+
+
+
+
 /*
 ------------------
 media width 1000px
